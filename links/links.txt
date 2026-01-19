@@ -1,1 +1,14 @@
-
+Title: Process Modeling With Large Language Models 
+◦ Repository Link: https://github.com/humam-kourani/LLM-Process-Modeling
+• Title: LLM4PM: A case study on using Large Language Models for Process Modeling in Enterprise Organizations 
+◦ Repository Link: https://github.com/Nouronihar/BPM24_LLM4PM
+• Title: ProcessLLM: A Large Language Model Specialized in the Interpretation, Analysis, and Optimization of Business Processes 
+◦ Repository Link: https://github.com/ProcessLLM-developers/ProcessLLM (GitHub) and https://huggingface.co/ProcessLLM-developers/ProcessLLM (Hugging Face)
+• Title: Conversationally Actionable Process Model Creation 
+◦ Repository Link: https://github.com/com-pot-93/campc
+• Title: Process Modeler vs. Chatbot: Is Generative AI Taking Over Process Modeling?
+◦ Repository Link: https://github.com/com-pot-93/convermod
+• Title: Introducing the BPMN-Chatbot for Efficient LLM-Based Process Modeling
+◦ Repository Link (Evaluation Data): https://github.com/BPMN-Chatbot/bpmn-chatbot-archive
+• Title: Large Language Models for Democratizing Business Process Modeling: BPMN Model Generation and Style Guide Adherence
+◦ Repository Link (Source Code): https://doi.org/10.5281/zenodo.11657507
