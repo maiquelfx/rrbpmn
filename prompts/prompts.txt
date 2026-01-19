@@ -1,0 +1,58 @@
+Example 0:
+Two lanes.
+
+Customer - Employee
+Employee sends product to customer
+Customer pays
+Employee is notified
+=============================================================
+
+Example 01: A customer places an order in an online store. The system verifies the payment. If the payment is approved, the order is picked from inventory and shipped to the customer, successfully completing the process. If the payment is rejected, the order is canceled and the process ends.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Example 02: An employee requests vacation. The request is sent to the manager, who can approve or reject it.
+
+If the manager approves, the HR department registers the vacation and the process ends approved.
+
+If the manager rejects, the process ends rejected.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Example 03: The customer submits a service request. The service team analyzes the request. If the request is valid, the team schedules a service appointment. If the request is not valid, the team sends a rejection notification.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Example 04: The guest arrives at the hotel reception and provides their reservation details. The reception team checks if the reservation exists in the system. If the reservation is valid, the receptionist requests the guest's documentation and performs the check-in, handing over the key or access card to the room. If the reservation is not registered, the receptionist informs the guest and offers options, such as making a new reservation or waiting for availability. After check-in, the guest goes to the room and the cleaning team checks if the room is ready and clean. During their stay, the guest can request additional services, such as room service or extra cleaning. When the guest decides to check out, they return to reception, where the team finalizes the bill, charges for any additional services, and concludes the lodging process. If there is any problem with the billing or the delivery of the room, the receptionist resolves it before finalizing the check-out.
+
+Example 5: The client contacts the real estate agency and expresses interest in buying a property. The agent requests the client's information and checks the system for properties that match the client's profile and budget. If there are options, the agent presents the properties and schedules visits. If there are no properties available according to the criteria, the agent informs the client and offers the possibility of registering an intention to purchase for future contact.
+
+After the visit, if the client shows interest in a specific property, the agent requests the necessary documentation and begins the credit analysis and financing approval process with the bank, when applicable. If the financing is approved, the purchase and sale agreement is drawn up and signed by the parties. If the credit is denied, the client can try another bank, renegotiate values, or withdraw from the purchase.
+
+With the contract signed, the notary's office registers the property in the buyer's name. After registration, the real estate agency hands over the keys to the client and advises on any additional fees, such as condominium fees or property taxes. If there are any problems with the documentation, payment, or registration, the real estate agency acts to resolve them before completing the official transfer of the property.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+EXAMPLE 06 - MESSAGE
+
+BPMN Process: Approval Request via Message
+
+Start: The process begins when an employee wishes to request approval.
+
+Send Request: The employee creates the request and sends an approval message to management.
+
+Message Receipt: Management receives the message and views the request details.
+
+Approval Decision (exclusive gateway):
+
+Approved: If management approves, the request is recorded as approved, and the employee receives an approval confirmation.
+
+Rejected: If management rejects, the request is recorded as rejected, and the employee receives a rejection notification.
+
+Employee Notification: Depending on the decision, the employee is informed of the result via message.
+
+End: The process ends when the employee receives a response from management.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Example 07:
+The process begins with an Available Domain. The first step is the Registered Domain,
